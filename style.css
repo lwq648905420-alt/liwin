@@ -5,3 +5,5 @@
 .real-table td{white-space:normal;vertical-align:top;min-width:140px}.real-table td:nth-child(3){min-width:300px;max-width:650px}.real-table td p{color:#52634f}.real-table a{display:block;font-size:12px;margin-top:10px}.real-table th{position:sticky;top:0}#real-data .table-wrap{max-height:650px;overflow:auto}a{color:#275b42}
 
 #recent-data td{white-space:normal;vertical-align:top;min-width:130px}#recent-data td:first-child{max-width:440px}#recent-data td p{color:#4a5e47}#recent-reviews td:nth-child(3){min-width:280px}#recent-data a{color:#275b42}
+
+.candidate-title{display:block;text-align:left;background:transparent;border:0;padding:0;margin-bottom:10px;color:#275b42;white-space:normal;line-height:1.7}.candidate-title:hover{text-decoration:underline;background:transparent}#candidate-details{width:min(850px,95vw)}.candidate-facts{display:grid;grid-template-columns:150px 1fr;gap:12px;margin:24px 0}.candidate-facts dt{color:#7b8574}.candidate-facts dd{margin:0;overflow-wrap:anywhere}.saved-description{white-space:pre-wrap;overflow-wrap:anywhere}@media(max-width:600px){.candidate-facts{grid-template-columns:100px 1fr}}
