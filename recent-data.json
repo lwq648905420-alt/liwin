@@ -12,7 +12,7 @@
   "windowStart": "2026-09-07",
   "windowEnd": "2026-10-07",
   "timezone": "Asia/Shanghai",
-  "fetchedAt": "2026-10-07T11:15:01.534059+00:00",
+  "fetchedAt": "2026-10-07T11:59:38.576598+00:00",
   "products": [
     {
       "id": "1004736399",
@@ -11801,6 +11801,28 @@
       "localImage": "./product-images/walmart-20207712465.jpg",
       "imageSourceURL": "https://i5.walmartimages.com/seo/7-Pocket-Expanding-File-Folder-4-Pack-Durable-Accordion-Organizer-Letter-A4-Size-Documents-Portable-Expandable-Ideal-Office-School-Home-Use_4c021617-7b0e-4582-9488-207c8ca14a82.464479dbbfe5b3c035c0a96394eb523e.jpeg",
       "imageSHA256": "fcd494f79282d1967d5dcd21c93bb5920c4b363a4d4905573a59ccda7b509813"
+    },
+    {
+      "platform": "Temu",
+      "id": "607664570498775",
+      "title": "34er   holzkeile 8x80mm polierte rillenholzkeile - Temu Germany",
+      "category": "木工连接件（仅初筛）",
+      "description": "34er-  holzkeile, 8x80mm polierte rillenholzkeile für holzbearbeitung, bohrführung und ausrichtung, hochwertiges holzkeil-positionierungsset für möbelreparatur und verbindungen zum niedrigsten Preis bei Temu.",
+      "url": "https://www.temu.com/de/34er--holzkeile-8x80mm-polierte-rillenholzkeile-fur-holzbearbeitung-bohrfuhrung-und-ausrichtung-hochwertiges-holzkeil-positionierungsset-fur-mobelreparatur-und-verbindungen-g-607664570498775.html",
+      "evidenceURL": "https://www.temu.com/de/goods.html?goods_id=607664570498775",
+      "sourceField": "Temu 德国站公开商品页面 og:title / og:description / canonical 元数据",
+      "sourceSHA256": "299c51e8099dc3c831f408f8ea65e266fdf5af9d64c2ac5c1cfe097f15a43a52",
+      "fetchedAt": "2026-10-07T11:59:38.576598+00:00",
+      "price": null,
+      "currency": null,
+      "listingDate": null,
+      "newnessStatus": "未提供上架日期，不能证明近月新品",
+      "qualificationStatus": "待核实，非免资质保证",
+      "reviews": [],
+      "aggregateRating": null,
+      "monthlySales": null,
+      "cpc": null,
+      "localImage": null
     }
   ],
   "reviews": [
@@ -12632,7 +12654,8 @@
     "eBay 只有采集时商品快照，没有取得可核实的近月评论或成交量；不计入近月评论统计",
     "新增候选品来自搜索结果公开字段，可能含不相关商品；分类和资质仅初筛，未逐个审核详情",
     "商品快照采集于本次日期，并不代表近月上架、近月销量或近月完整行情",
-    "没有采集某商品评论时，仅表示未取得评论样本，不能理解为商品没有评论"
+    "没有采集某商品评论时，仅表示未取得评论样本，不能理解为商品没有评论",
+    "Temu 仅取得 1 条德国站商品标题与说明元数据；未取得价格、图片、评论或上架日期，不属于已验证的近月新品数据。"
   ],
   "catalogErrors": [],
   "catalogQueries": {
