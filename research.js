@@ -45,4 +45,17 @@ function download(name,text,type='text/csv'){const url=URL.createObjectURL(new B
 $('research-template').onclick=()=>download(names[tab]+'-模板.csv',researchCSV(tab,[]));$('research-export').onclick=()=>download(names[tab]+'-'+site+'.csv',researchCSV(tab,current()[tab]));$('research-import').onclick=()=>{if(!project)return toast('请先创建项目');$('research-file').click();};
 $('research-file').onchange=async()=>{const file=$('research-file').files[0];const selectedTab=tab,selectedProject=project,selectedSite=site;try{if(!file)return;if(file.size>5*1024*1024)throw Error('请使用小于 5 MB 的 CSV');const rows=csvRows(selectedTab,await file.text()).map(r=>({...r,id:crypto.randomUUID()}));if(tab!==selectedTab||project!==selectedProject||site!==selectedSite)throw Error('导入期间切换了项目或站点，请重新导入');update(s=>{const next=[...s[selectedTab],...rows];unique(selectedTab,next);s[selectedTab]=next;});}catch(e){toast('导入失败：'+e.message);}finally{$('research-file').value='';}};
 $('research-backup').onclick=()=>download('liwin-完整调研备份.json',loadError?localStorage.getItem(storageKey)||'':JSON.stringify(store,null,2),'application/json');$('research-restore').onclick=()=>$('backup-file').click();$('backup-file').onchange=async()=>{try{const f=$('backup-file').files[0];if(!f)return;if(f.size>10*1024*1024)throw Error('备份文件过大');const next=validateBackup(JSON.parse(await f.text()));if(!confirm('恢复将替换全部调研项目，建议先导出当前备份。继续？'))return;const previousError=loadError;loadError=false;if(save(next)){project=store.projects[0]?.id||'';render();toast('已恢复全部项目和站点数据');}else loadError=previousError;}catch(e){toast('恢复失败：'+e.message);}finally{$('backup-file').value='';}};
-project=store.projects[0]?.id||'';$('research-site').innerHTML=Object.entries(sites).map(([k,v])=>`<option value="${k}">${v[0]} · ${v[1]}</option>`).join('');render();if(loadError)toast('已有调研数据无法读取；请先导出原始备份，当前不会覆盖旧数据。');
+project=store.projects[0]?.id||'';if(project){const storedSite=Object.keys(store.data).find(k=>k.startsWith(project+':'))?.slice(project.length+1);if(storedSite&&sites[storedSite])site=storedSite;}$('research-site').innerHTML=Object.entries(sites).map(([k,v])=>`<option value="${k}">${v[0]} · ${v[1]}</option>`).join('');render();if(loadError)toast('已有调研数据无法读取；请先导出原始备份，当前不会覆盖旧数据。');
+
+
+window.addEventListener('liwin-import-recent',e=>{
+ try{const b=e.detail,id='etsy-recent-'+b.windowEnd;
+ if(b.reviews.some(r=>r.date<b.windowStart||r.date>b.windowEnd))throw Error('评论超出日期窗口');
+ if(store.projects.some(p=>p.id===id)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已切换到已有近期评论项目，未重复导入。';return;}
+ const next=structuredClone(store),data=blankSite();
+ data.reviews=b.reviews.map(r=>({id:r.id,competitor:r.listingId,rating:r.rating,text:r.text,scene:r.scene,positive:'',pain:'',willingness:'未验证',paymentEvidence:'',url:r.url+'（评论日期 '+r.date+'；来源：'+r.sourceField+'）'}));
+ data.directions=[{id:'etsy-wood-organizer',name:'木质桌面收纳（近期评论线索，待市场验证）',source:'评论',evidence:b.reviews.length+' 条公开页面评论；'+b.windowStart+' 至 '+b.windowEnd+'；样本全部为5星，不能推算月销量或痛点普遍性',url:'https://www.etsy.com/search?q=wood+desk+organizer',hypothesis:'办公桌使用及礼品场景可作为待验证方向；请核实是否包含电器、当前需求及产品合规。'}];
+ next.projects.push({id,name:'Etsy · 桌面收纳 · '+b.windowStart+' 至 '+b.windowEnd});next.data[id+':ET_US']=data;
+ if(save(next)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已载入 '+b.reviews.length+' 条近期评论，原有项目保留。';document.getElementById('research-workspace').scrollIntoView({behavior:'smooth'});}
+ }catch(err){document.getElementById('recent-status').textContent='载入失败：'+err.message;}
+});

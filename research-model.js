@@ -1,5 +1,5 @@
 import {parseCSV} from './model.js';
-export const sites={DE:['德国','EUR'],FR:['法国','EUR'],IT:['意大利','EUR'],ES:['西班牙','EUR'],NL:['荷兰','EUR'],SE:['瑞典','SEK'],PL:['波兰','PLN'],UK:['英国','GBP'],US:['美国','USD']};
+export const sites={ET_US:['Etsy（USD 展示）','USD'],DE:['德国','EUR'],FR:['法国','EUR'],IT:['意大利','EUR'],ES:['西班牙','EUR'],NL:['荷兰','EUR'],SE:['瑞典','SEK'],PL:['波兰','PLN'],UK:['英国','GBP'],US:['美国','USD']};
 const f=(key,label,type='text',extra={})=>({key,label,type,...extra});
 export const schemas={
  directions:[f('name','候选方向'),f('source','发现来源','select',{options:['关键词','榜单','评论']}),f('evidence','关键词 / 榜单名称 / 评论证据','textarea'),f('url','来源链接'),f('hypothesis','目标人群与需求假设','textarea')],
