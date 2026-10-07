@@ -49,13 +49,13 @@ project=store.projects[0]?.id||'';if(project){const storedSite=Object.keys(store
 
 
 window.addEventListener('liwin-import-recent',e=>{
- try{const b=e.detail,id='etsy-recent-'+b.windowEnd;
+ try{const b=e.detail,id='etsy-recent-'+b.windowEnd+'-'+b.products.map(p=>p.id).join('-').slice(0,60);
  if(b.reviews.some(r=>r.date<b.windowStart||r.date>b.windowEnd))throw Error('评论超出日期窗口');
  if(store.projects.some(p=>p.id===id)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已切换到已有近期评论项目，未重复导入。';return;}
  const next=structuredClone(store),data=blankSite();
  data.reviews=b.reviews.map(r=>({id:r.id,competitor:r.listingId,rating:r.rating,text:r.text,scene:r.scene,positive:'',pain:'',willingness:'未验证',paymentEvidence:'',url:r.url+'（评论日期 '+r.date+'；来源：'+r.sourceField+'）'}));
- data.directions=[{id:'etsy-wood-organizer',name:'木质桌面收纳（近期评论线索，待市场验证）',source:'评论',evidence:b.reviews.length+' 条公开页面评论；'+b.windowStart+' 至 '+b.windowEnd+'；样本全部为5星，不能推算月销量或痛点普遍性',url:'https://www.etsy.com/search?q=wood+desk+organizer',hypothesis:'办公桌使用及礼品场景可作为待验证方向；请核实是否包含电器、当前需求及产品合规。'}];
- next.projects.push({id,name:'Etsy · 桌面收纳 · '+b.windowStart+' 至 '+b.windowEnd});next.data[id+':ET_US']=data;
+ data.directions=[{id:'etsy-wood-organizer',name:'普通收纳与旅行用品（近期评论线索，待市场验证）',source:'评论',evidence:b.reviews.length+' 条公开页面评论；'+b.windowStart+' 至 '+b.windowEnd+'；样本不是随机抽样，不能推算月销量或痛点普遍性',url:'https://www.etsy.com/search?q=fabric+storage+basket',hypothesis:'根据近期原文核实旅行、收纳和日常使用需求；品类归属仅初筛，需核实材质、功能及产品合规。'}];
+ next.projects.push({id,name:'Etsy · 普通收纳与旅行用品 · '+b.windowStart+' 至 '+b.windowEnd});next.data[id+':ET_US']=data;
  if(save(next)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已载入 '+b.reviews.length+' 条近期评论，原有项目保留。';document.getElementById('research-workspace').scrollIntoView({behavior:'smooth'});}
  }catch(err){document.getElementById('recent-status').textContent='载入失败：'+err.message;}
 });
