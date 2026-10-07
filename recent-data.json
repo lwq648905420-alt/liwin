@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "platform": "Etsy",
+  "platform": "Etsy / Walmart / eBay",
   "category": "普通收纳与旅行用品",
   "searchQueries": {
     "fabric storage basket": "布艺收纳",
@@ -12,7 +12,7 @@
   "windowStart": "2026-09-07",
   "windowEnd": "2026-10-07",
   "timezone": "Asia/Shanghai",
-  "fetchedAt": "2026-10-07T11:03:24.327087+00:00",
+  "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
   "products": [
     {
       "id": "1004736399",
@@ -90,7 +90,8 @@
       "fetchedAt": "2026-10-07T11:03:18.104814+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4329381785",
@@ -140,7 +141,8 @@
       "fetchedAt": "2026-10-07T11:03:17.964077+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1678261796",
@@ -204,7 +206,8 @@
       "fetchedAt": "2026-10-07T11:03:17.967812+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4559226988",
@@ -225,7 +228,8 @@
       "fetchedAt": "2026-10-07T11:03:18.655507+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1085437530",
@@ -289,7 +293,8 @@
       "fetchedAt": "2026-10-07T11:03:18.684359+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4571912471",
@@ -310,7 +315,8 @@
       "fetchedAt": "2026-10-07T11:03:18.707593+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4395700378",
@@ -388,7 +394,8 @@
       "fetchedAt": "2026-10-07T11:03:19.371389+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4352471578",
@@ -424,7 +431,8 @@
       "fetchedAt": "2026-10-07T11:03:19.355171+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4343094727",
@@ -502,7 +510,8 @@
       "fetchedAt": "2026-10-07T11:03:19.460601+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4567141015",
@@ -523,7 +532,8 @@
       "fetchedAt": "2026-10-07T11:03:19.972200+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4546035172",
@@ -601,7 +611,8 @@
       "fetchedAt": "2026-10-07T11:03:20.108564+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4318195457",
@@ -665,7 +676,8 @@
       "fetchedAt": "2026-10-07T11:03:20.121419+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4523587697",
@@ -686,7 +698,8 @@
       "fetchedAt": "2026-10-07T11:03:20.649649+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1877970602",
@@ -707,7 +720,8 @@
       "fetchedAt": "2026-10-07T11:03:20.836971+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4361899123",
@@ -728,7 +742,8 @@
       "fetchedAt": "2026-10-07T11:03:20.766432+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1667947364",
@@ -749,7 +764,8 @@
       "fetchedAt": "2026-10-07T11:03:21.399755+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4497937086",
@@ -827,7 +843,8 @@
       "fetchedAt": "2026-10-07T11:03:21.508149+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4385792074",
@@ -863,7 +880,8 @@
       "fetchedAt": "2026-10-07T11:03:21.499486+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4359430720",
@@ -941,7 +959,8 @@
       "fetchedAt": "2026-10-07T11:03:22.177465+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4471064066",
@@ -977,7 +996,8 @@
       "fetchedAt": "2026-10-07T11:03:22.142885+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4571455691",
@@ -1027,7 +1047,8 @@
       "fetchedAt": "2026-10-07T11:03:22.221338+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4491242786",
@@ -1105,7 +1126,8 @@
       "fetchedAt": "2026-10-07T11:03:22.821563+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4541601730",
@@ -1183,7 +1205,8 @@
       "fetchedAt": "2026-10-07T11:03:22.801399+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1785564037",
@@ -1204,7 +1227,8 @@
       "fetchedAt": "2026-10-07T11:03:22.785334+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4491412325",
@@ -1225,7 +1249,8 @@
       "fetchedAt": "2026-10-07T11:03:23.463346+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4379128847",
@@ -1246,7 +1271,8 @@
       "fetchedAt": "2026-10-07T11:03:23.707847+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4487023035",
@@ -1267,7 +1293,8 @@
       "fetchedAt": "2026-10-07T11:03:23.472889+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "4468629615",
@@ -1288,7 +1315,8 @@
       "fetchedAt": "2026-10-07T11:03:24.136307+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
     },
     {
       "id": "1178663538",
@@ -1324,7 +1352,219 @@
       "fetchedAt": "2026-10-07T11:03:24.326632+00:00",
       "sales": null,
       "adCpc": null,
-      "launched": null
+      "launched": null,
+      "platform": "Etsy"
+    },
+    {
+      "platform": "Walmart",
+      "id": "3627302536",
+      "url": "https://www.walmart.com/ip/3627302536",
+      "title": "Protege 3-Piece Durable Packing Cubes Set with Mesh, Blue",
+      "description": "Make packing stress-free with the Protege 3-Piece Packing Cubes Set. Made of lightweight ripstop polyester, these zippered cubes are the perfect way to keep your clothing, toiletries, and small items organized in your luggage. This set includes three different sizes of packing cubes: 10 inches by 6 inches by 3 inches, 13 inches by 10 inches by 3 inches, and 13.75 inches by 10 inches by 3 inches, great for everything from shoes to swimsuits and everything in between. They even fold flat for easy storage when not in use. Be sure to shop the entire Protege collection for all your travel needs, from luggage to locks and luggage tags. Pack without the stress when you use the Protege 3-Piece Packing Cubes Set.",
+      "category": "旅行收纳袋",
+      "qualificationStatus": "待核实，非免资质保证",
+      "price": 9.87,
+      "currency": "USD",
+      "reviews": [
+        {
+          "id": "walmart-441370013",
+          "platform": "Walmart",
+          "listingId": "3627302536",
+          "date": "2026-09-21",
+          "text": "A ‘large' packing cube was not included.  There were 2 cubes the same size (medium) and a smaller one.  Not what I thought I was getting.",
+          "rating": 2,
+          "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "大号规格缺失 / 套装规格不符（原文字面）",
+          "positive": "",
+          "willingness": "未验证"
+        },
+        {
+          "id": "walmart-440450564",
+          "platform": "Walmart",
+          "listingId": "3627302536",
+          "date": "2026-09-13",
+          "text": "Made well. I prefere to pack with these cubes. Take the packed cube out of your suitcase and straight into the drawer of where you are staying.  \nI wish they came as singles .I'd rather buy the sizes I  need .",
+          "rating": 4,
+          "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "",
+          "positive": "",
+          "willingness": "未验证"
+        },
+        {
+          "id": "walmart-440286743",
+          "platform": "Walmart",
+          "listingId": "3627302536",
+          "date": "2026-09-12",
+          "text": "Works good",
+          "rating": 5,
+          "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "",
+          "positive": "",
+          "willingness": "未验证"
+        }
+      ],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "fdebb1a3790d7b7b350bf2b2e3d083bd80cab089b80117c3d70606778b1e879b"
+    },
+    {
+      "platform": "Walmart",
+      "id": "5002602417",
+      "url": "https://www.walmart.com/ip/5002602417",
+      "title": "Livhil 8Pcs Packing Cubes for Luggage, Packing Cubes for Travel Luggage Packing Organizers ( Khaki Plaid )",
+      "description": " LIVHIL Packing cubes Series     \n Livhil PACKING CUBES is specially designed for travelers living in the 21st century, Easy to pack, Easy to travel. Made of modern waterproof material, heavy-duty zippers, and stitching, High standard workmanship to ensure your travel packing cubes will Last a Long Time.    Packing cubes organize your luggage in many ways \nMesh design allows you to easily find the clothes you want \nThe handle design allows you to carry a bag with you at any time with one hand \nNon-slip safety buckle design, your clothes will not be crumpled during travel \nTwo-way reinforced zipper design, convenient for you to open quickly  ",
+      "category": "旅行收纳袋",
+      "qualificationStatus": "待核实，非免资质保证",
+      "price": 13.99,
+      "currency": "USD",
+      "reviews": [
+        {
+          "id": "walmart-443056926",
+          "platform": "Walmart",
+          "listingId": "5002602417",
+          "date": "2026-10-05",
+          "text": "cheaply made",
+          "rating": 3,
+          "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "做工质量不足（原文字面）",
+          "positive": "",
+          "willingness": "未验证"
+        },
+        {
+          "id": "walmart-441904298",
+          "platform": "Walmart",
+          "listingId": "5002602417",
+          "date": "2026-09-26",
+          "text": "As  described.",
+          "rating": 5,
+          "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "",
+          "positive": "",
+          "willingness": "未验证"
+        },
+        {
+          "id": "walmart-441007448",
+          "platform": "Walmart",
+          "listingId": "5002602417",
+          "date": "2026-09-18",
+          "text": "Love these packing cubes. We use them for so much stuff! It definitely helps to save space inside luggage. I often even use them to pack for military training to help keep things organized within my duffel bags.",
+          "rating": 5,
+          "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+          "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+          "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+          "scene": "行李打包（按商品品类，需原文确认）",
+          "pain": "",
+          "positive": "",
+          "willingness": "未验证"
+        }
+      ],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "efe9dd38316c0b004ccb591071b7a7c5589a81c88bb396d3f4af09d58ba3df1b"
+    },
+    {
+      "platform": "Walmart",
+      "id": "5004365083",
+      "url": "https://www.walmart.com/ip/5004365083",
+      "title": "Livhil 8Pcs Packing Cubes for Luggage, Packing Cubes for Travel Luggage Packing Organizers ( Blue flower)",
+      "description": " Livhil Packing Cubes Series       Livhil packing cubes is specially designed for travelers living in the 21st century, easy to pack, easy to travel. Made of modern waterproof material, heavy-duty zippers, and stitching, high standard workmanship to ensure your travel accessories will last a long time. \n Packing cubes organize your luggage in many ways. \nMesh design allows you to easily find the clothes you want. \nThe handle design allows you to carry a bag with you at any time with one hand. \nNon-slip safety buckle design, your clothes will not be crumpled during travel. \nTwo-way reinforced zipper design, convenient for you to open quickly.  ",
+      "category": "旅行收纳袋",
+      "qualificationStatus": "待核实，非免资质保证",
+      "price": 13.99,
+      "currency": "USD",
+      "reviews": [],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "a15793267f59527879757420342b2a568dd7f31acf27ca6e800ef5efc9726cd1"
+    },
+    {
+      "platform": "Walmart",
+      "id": "5463765283",
+      "url": "https://www.walmart.com/ip/5463765283",
+      "title": "Livhil 8Pcs Packing Cubes for Luggage , Packing Cubes for Travel Luggage Packing Organizers for Suitcase Set (Butterflies)",
+      "description": " Livhil Packing Cubes Series       Livhil packing cubes is specially designed for travelers living in the 21st century, easy to pack, easy to travel. Made of modern waterproof material, heavy-duty zippers, and stitching, high standard workmanship to ensure your travel accessories will last a long time. \n Packing cubes organize your luggage in many ways. \nMesh design allows you to easily find the clothes you want. \nThe handle design allows you to carry a bag with you at any time with one hand. \nNon-slip safety buckle design, your clothes will not be crumpled during travel. \nTwo-way reinforced zipper design, convenient for you to open quickly.  ",
+      "category": "旅行收纳袋",
+      "qualificationStatus": "待核实，非免资质保证",
+      "price": 14.99,
+      "currency": "USD",
+      "reviews": [],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "1188d4b5a98f7af491d0dff945ea49425b9f167dd0a4caee2769f26880d0875a"
+    },
+    {
+      "platform": "eBay",
+      "id": "284628852737",
+      "url": "https://www.ebay.com/itm/284628852737",
+      "title": "Shipping Boxes ~ Many Sizes Available! Mailing Moving Packing Storage! Small Big",
+      "description": "",
+      "category": "普通包装纸箱",
+      "qualificationStatus": "待核实，非食品接触用途保证",
+      "price": 17.03,
+      "currency": "USD",
+      "reviews": [],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "8c5bc59cc657577b469758d5011cf9523c736e4bb63a744f571a0063544326d1"
+    },
+    {
+      "platform": "eBay",
+      "id": "275401291602",
+      "url": "https://www.ebay.com/itm/275401291602",
+      "title": "CARDBOARD BOXES | Many Sizes Available! Mailing Moving Packing Storage Small Big",
+      "description": "",
+      "category": "普通包装纸箱",
+      "qualificationStatus": "待核实，非食品接触用途保证",
+      "price": 20.04,
+      "currency": "USD",
+      "reviews": [],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "1a369ff14fcbeef54c6753d9adb1497bfda28817debdeeb158ee9c6015a878e5"
+    },
+    {
+      "platform": "eBay",
+      "id": "147507381250",
+      "url": "https://www.ebay.com/itm/147507381250",
+      "title": "Shipping Boxes Corrugated Mailing Moving Packing Storage - Pack 25 - Pick Size",
+      "description": "",
+      "category": "普通包装纸箱",
+      "qualificationStatus": "待核实，非食品接触用途保证",
+      "price": 29.0,
+      "currency": "USD",
+      "reviews": [],
+      "fetchedAt": "2026-10-07T11:10:17.351582+00:00",
+      "sales": null,
+      "adCpc": null,
+      "launched": null,
+      "evidenceSHA256": "ba48918cc289a59c38c705f0f9e94277bc22c540f52136a2c85263a11cd1b114"
     }
   ],
   "reviews": [
@@ -1340,7 +1580,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "31e1b29744044e8fb44a",
@@ -1354,7 +1595,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "91889794e58493279fe3",
@@ -1368,7 +1610,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "c83a332140d7a2973d03",
@@ -1382,7 +1625,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ca5ad1a180181f7f4f32",
@@ -1396,7 +1640,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "916663fc09a25a815e32",
@@ -1410,7 +1655,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "2af58ab96223780f2896",
@@ -1424,7 +1670,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ac75395f13521b87c781",
@@ -1438,7 +1685,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "b19c64d1f371e556e41b",
@@ -1452,7 +1700,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "213e98f7c5b6b1033c93",
@@ -1466,7 +1715,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "f2615fdac837179eb512",
@@ -1480,7 +1730,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "276a6fdc1ce30165f381",
@@ -1494,7 +1745,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "cf2e7cc5a33aca1296ea",
@@ -1508,7 +1760,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "9264cd85f9d1a3b5bd5b",
@@ -1522,7 +1775,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "a455dd963dffcb4a53c8",
@@ -1536,7 +1790,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "12c585b23b91a4602e7d",
@@ -1550,7 +1805,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "8112078db4be5b2191f1",
@@ -1564,7 +1820,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "7ac0e6dff50c375c3ea4",
@@ -1578,7 +1835,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "106c08070ae9ad1ae191",
@@ -1592,7 +1850,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "55344659db7a12eb75e0",
@@ -1606,7 +1865,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "0b17875d5d77328973a2",
@@ -1620,7 +1880,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "2931fbeb06fb8239f5c8",
@@ -1634,7 +1895,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "c9e0dd712456b97e5b62",
@@ -1648,7 +1910,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "5ce20e5c9bfcd791afc8",
@@ -1662,7 +1925,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "b15fefc51a4dabf5ecf9",
@@ -1676,7 +1940,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "f1e450ff33eb114b34f6",
@@ -1690,7 +1955,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "e70ca6364048667e8244",
@@ -1704,7 +1970,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ee1e081d5c238265ca24",
@@ -1718,7 +1985,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "077033d5008f1969183e",
@@ -1732,7 +2000,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "30cc9af84f91b4dfeb39",
@@ -1746,7 +2015,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "adc488a3fa349a21f930",
@@ -1760,7 +2030,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ff53fb1202853e26d053",
@@ -1774,7 +2045,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "2ac037bbc23ada365c17",
@@ -1788,7 +2060,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "f6de4f6fed81f4dbaf85",
@@ -1802,7 +2075,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ffa717196653ec6a7941",
@@ -1816,7 +2090,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "f480e7ae7f86663c7608",
@@ -1830,7 +2105,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ec6be04cee99ee019044",
@@ -1844,7 +2120,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "3def0810f6562f1eb48b",
@@ -1858,7 +2135,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "21748a794102430d6709",
@@ -1872,7 +2150,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "97a8b8e594ea41bb88e5",
@@ -1886,7 +2165,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "9f23eb36faae410b382b",
@@ -1900,7 +2180,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "fbc0b7020cd2246f908d",
@@ -1914,7 +2195,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "b6c85b0da64539305d03",
@@ -1928,7 +2210,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "6bc703b81bd2ccb9337c",
@@ -1942,7 +2225,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "692e2f93793ef424699b",
@@ -1956,7 +2240,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "c60e2277f11691d2cb0f",
@@ -1970,7 +2255,8 @@
       "scene": "未明确 / 待确认",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "86d8a6a22d1df1e3c9a4",
@@ -1984,7 +2270,8 @@
       "scene": "送礼",
       "pain": "",
       "positive": "",
-      "willingness": "未验证"
+      "willingness": "未验证",
+      "platform": "Etsy"
     },
     {
       "id": "ce497572be4aae2689a1",
@@ -1996,6 +2283,97 @@
       "sourceField": "Product.review JSON-LD",
       "scope": "商品页面结构化评论，未获取完整评论列表",
       "scene": "未明确 / 待确认",
+      "pain": "",
+      "positive": "",
+      "willingness": "未验证",
+      "platform": "Etsy"
+    },
+    {
+      "id": "walmart-441370013",
+      "platform": "Walmart",
+      "listingId": "3627302536",
+      "date": "2026-09-21",
+      "text": "A ‘large' packing cube was not included.  There were 2 cubes the same size (medium) and a smaller one.  Not what I thought I was getting.",
+      "rating": 2,
+      "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
+      "pain": "大号规格缺失 / 套装规格不符（原文字面）",
+      "positive": "",
+      "willingness": "未验证"
+    },
+    {
+      "id": "walmart-440450564",
+      "platform": "Walmart",
+      "listingId": "3627302536",
+      "date": "2026-09-13",
+      "text": "Made well. I prefere to pack with these cubes. Take the packed cube out of your suitcase and straight into the drawer of where you are staying.  \nI wish they came as singles .I'd rather buy the sizes I  need .",
+      "rating": 4,
+      "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
+      "pain": "",
+      "positive": "",
+      "willingness": "未验证"
+    },
+    {
+      "id": "walmart-440286743",
+      "platform": "Walmart",
+      "listingId": "3627302536",
+      "date": "2026-09-12",
+      "text": "Works good",
+      "rating": 5,
+      "url": "https://www.walmart.com/reviews/product/3627302536?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
+      "pain": "",
+      "positive": "",
+      "willingness": "未验证"
+    },
+    {
+      "id": "walmart-443056926",
+      "platform": "Walmart",
+      "listingId": "5002602417",
+      "date": "2026-10-05",
+      "text": "cheaply made",
+      "rating": 3,
+      "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
+      "pain": "做工质量不足（原文字面）",
+      "positive": "",
+      "willingness": "未验证"
+    },
+    {
+      "id": "walmart-441904298",
+      "platform": "Walmart",
+      "listingId": "5002602417",
+      "date": "2026-09-26",
+      "text": "As  described.",
+      "rating": 5,
+      "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
+      "pain": "",
+      "positive": "",
+      "willingness": "未验证"
+    },
+    {
+      "id": "walmart-441007448",
+      "platform": "Walmart",
+      "listingId": "5002602417",
+      "date": "2026-09-18",
+      "text": "Love these packing cubes. We use them for so much stuff! It definitely helps to save space inside luggage. I often even use them to pack for military training to help keep things organized within my duffel bags.",
+      "rating": 5,
+      "url": "https://www.walmart.com/reviews/product/5002602417?sort=submission-desc",
+      "sourceField": "公开评论页 reviewSubmissionTime / reviewText / rating",
+      "scope": "页面可见商品评论；跨变体相同 reviewId 合并",
+      "scene": "行李打包（按商品品类，需原文确认）",
       "pain": "",
       "positive": "",
       "willingness": "未验证"
@@ -2013,6 +2391,8 @@
     "搜索结果不是销量榜单；月销量、CPC、上架日期未知",
     "同日期、原文和星级的跨商品重复评论已合并，可能存在店铺评论混入，按页面标识留存",
     "场景标签为初步分析，痛点与付费意愿未验证",
-    "商品是否含电器、材质与目标站点合规要求仍需核实"
+    "商品是否含电器、材质与目标站点合规要求仍需核实",
+    "Walmart 近期评论按提交日期筛选，跨颜色和变体重复 reviewId 去重",
+    "eBay 只有采集时商品快照，没有取得可核实的近月评论或成交量；不计入近月评论统计"
   ]
 }

@@ -48,14 +48,18 @@ $('research-backup').onclick=()=>download('liwin-完整调研备份.json',loadEr
 project=store.projects[0]?.id||'';if(project){const storedSite=Object.keys(store.data).find(k=>k.startsWith(project+':'))?.slice(project.length+1);if(storedSite&&sites[storedSite])site=storedSite;}$('research-site').innerHTML=Object.entries(sites).map(([k,v])=>`<option value="${k}">${v[0]} · ${v[1]}</option>`).join('');render();if(loadError)toast('已有调研数据无法读取；请先导出原始备份，当前不会覆盖旧数据。');
 
 
+
 window.addEventListener('liwin-import-recent',e=>{
- try{const b=e.detail,id='etsy-recent-'+b.windowEnd+'-'+b.products.map(p=>p.id).join('-').slice(0,60);
- if(b.reviews.some(r=>r.date<b.windowStart||r.date>b.windowEnd))throw Error('评论超出日期窗口');
- if(store.projects.some(p=>p.id===id)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已切换到已有近期评论项目，未重复导入。';return;}
- const next=structuredClone(store),data=blankSite();
- data.reviews=b.reviews.map(r=>({id:r.id,competitor:r.listingId,rating:r.rating,text:r.text,scene:r.scene,positive:'',pain:'',willingness:'未验证',paymentEvidence:'',url:r.url+'（评论日期 '+r.date+'；来源：'+r.sourceField+'）'}));
- data.directions=[{id:'etsy-wood-organizer',name:'普通收纳与旅行用品（近期评论线索，待市场验证）',source:'评论',evidence:b.reviews.length+' 条公开页面评论；'+b.windowStart+' 至 '+b.windowEnd+'；样本不是随机抽样，不能推算月销量或痛点普遍性',url:'https://www.etsy.com/search?q=fabric+storage+basket',hypothesis:'根据近期原文核实旅行、收纳和日常使用需求；品类归属仅初筛，需核实材质、功能及产品合规。'}];
- next.projects.push({id,name:'Etsy · 普通收纳与旅行用品 · '+b.windowStart+' 至 '+b.windowEnd});next.data[id+':ET_US']=data;
- if(save(next)){project=id;site='ET_US';tab='reviews';render();document.getElementById('recent-status').textContent='已载入 '+b.reviews.length+' 条近期评论，原有项目保留。';document.getElementById('research-workspace').scrollIntoView({behavior:'smooth'});}
+ try{const b=e.detail;if(b.reviews.some(r=>r.date<b.windowStart||r.date>b.windowEnd))throw Error('评论超出日期窗口');
+ const next=structuredClone(store);let target=null,added=0;
+ for(const platform of [...new Set(b.reviews.map(r=>r.platform||'Etsy'))]){
+  const rows=b.reviews.filter(r=>(r.platform||'Etsy')===platform),market={Etsy:'ET_US',Walmart:'WM_US',eBay:'EB_US'}[platform];if(!market)continue;
+  const id='recent-'+platform+'-'+b.windowEnd;target??={id,market};
+  if(next.projects.some(p=>p.id===id))continue;
+  const data=blankSite();data.reviews=rows.map(r=>({id:r.id,competitor:r.listingId,rating:r.rating,text:r.text,scene:r.scene,positive:r.positive||'',pain:r.pain||'',willingness:'未验证',paymentEvidence:'',url:r.url+'（评论日期 '+r.date+'；来源：'+r.sourceField+'）'}));
+  data.directions=[{id:'direction-'+platform,name:platform+' 近期普通用品线索（待验证）',source:'评论',evidence:rows.length+' 条页面可见近月评论；'+b.windowStart+' 至 '+b.windowEnd+'；不能推算月销量或痛点普遍性',url:rows[0].url,hypothesis:'根据原文核实收纳与旅行使用需求；需确认材质、功能及目标市场合规。'}];
+  next.projects.push({id,name:platform+' · 近期普通用品 · '+b.windowStart+' 至 '+b.windowEnd});next.data[id+':'+market]=data;added+=rows.length;target={id,market};
+ }
+ if(target&&save(next)){project=target.id;site=target.market;tab='reviews';render();document.getElementById('recent-status').textContent=added?'已按平台分别载入 '+added+' 条近期评论，原有项目保留。':'已切换到已有项目，未重复导入。';document.getElementById('research-workspace').scrollIntoView({behavior:'smooth'});}
  }catch(err){document.getElementById('recent-status').textContent='载入失败：'+err.message;}
 });
